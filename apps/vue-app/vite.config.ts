@@ -12,8 +12,7 @@ export default defineConfig({
     },
   },
   build: {
-    outDir: 'dist',
-    manifest: true,
+    manifest: './manifest.json',
     rollupOptions: {
       input: {
         main: './src/main.ts',
