@@ -14,7 +14,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "vue-app:build": "pnpm --filter vue-app build",
-    "vue-app:dev": "pnpm --filter vue-app dev"
+    "vue-app:dev": "pnpm --filter vue-app dev",
+    "vue-app:release": "node ./scripts/release-vue-app.mjs"
   },
-  "packageManager": "pnpm@10.20.0"
+  "packageManager": "pnpm@10.20.0",
+  "devDependencies": {
+    "rimraf": "^6.1.0",
+    "zx": "^8.8.5"
+  }
 }
