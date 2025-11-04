@@ -12,7 +12,7 @@ export default defineConfig({
     },
   },
   build: {
-    manifest: './manifest.json',
+    manifest: 'manifest.json',
     rollupOptions: {
       input: {
         main: './src/main.ts',

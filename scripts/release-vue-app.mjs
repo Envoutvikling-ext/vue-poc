@@ -22,7 +22,6 @@ await $`cp -R ${dist}/. ${target}`
 
 // await $`git tag ${app}-${version}`
 // await $`git push origin HEAD --tags`
+const cdnBase = `https://cdn.jsdelivr.net/gh/Envoutvikling-ext/vue-poc@main/cdn/${app}/${version}`
 
-
-console.log(`Done. CDN base will be:
-https://cdn.jsdelivr.net/gh/Envoutvikling-ext/vue-poc@${app}-${version}/cdn/${app}/${version}`)
+console.log(`Done. Manifest is located at: ${cdnBase}/manifest.json`)
