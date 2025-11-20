@@ -4,7 +4,7 @@ import fs from 'node:fs'
 import path from 'node:path'
 
 const app = 'vue-app'
-const version = process.env.VERSION ?? '1.0.0' // pass VERSION=1.0.0
+const version = process.env.VERSION ?? '2.0.0' // pass VERSION=1.0.0
 const repoRoot = process.cwd()
 const dist = path.join(repoRoot, 'apps', app, 'dist')
 const target = path.join(repoRoot, 'cdn', app, version)
