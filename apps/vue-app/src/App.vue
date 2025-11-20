@@ -2,6 +2,7 @@
 import HelloWorld from "@/components/HelloWorld.vue";
 import Button from 'primevue/button';
 import exampleImage from './assets/example.png'
+import AsyncData from "@/components/AsyncData.vue";
 </script>
 
 <template>
@@ -9,6 +10,7 @@ import exampleImage from './assets/example.png'
     <h1>Vue PoC</h1>
     <p>It works! 🟢</p>
     <HelloWorld/>
+    <AsyncData />
     <i class="pi pi-check"></i>
     <i class="pi pi-times"></i>
     <span class="pi pi-search"></span>
