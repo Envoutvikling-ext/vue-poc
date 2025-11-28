@@ -4,6 +4,6 @@ const now = new Date().toLocaleString()
 
 <template>
   <div>
-    <p>Now: {{ now }}</p>
+    <p>Hello World! The date and time is now: {{ now }}</p>
   </div>
 </template>

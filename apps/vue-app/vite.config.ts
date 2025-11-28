@@ -3,7 +3,6 @@ import {defineConfig} from 'vite'
 import vue from '@vitejs/plugin-vue'
 import tailwindcss from '@tailwindcss/vite'
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
     vue(),
@@ -19,12 +18,20 @@ export default defineConfig({
     manifest: 'manifest.json',
     rollupOptions: {
       input: {
-        main: './src/main.ts',
+        eos: './src/modules/eos/main.ts',
+        measurements: './src/modules/measurements/main.ts',
       }
     }
   },
   server: {
     port: 5173,
-    strictPort: true
+    strictPort: true,
+    origin: 'http://localhost:5173',
+    proxy: {
+        '/Component': {
+            target: 'https://localhost:44301',
+            secure: false, // Set to false to accept self-signed SSL certificates from IIS Express
+        }
+    }
   }
 })
