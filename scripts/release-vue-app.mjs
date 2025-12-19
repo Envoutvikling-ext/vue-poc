@@ -17,11 +17,11 @@ fs.mkdirSync(target, { recursive: true })
 await $`cp -R ${dist}/. ${target}`
 
 console.log(`git add ${target}`)
-// await $`git add ${target}`
+await $`git add ${target}`
 console.log(`git commit -m "release(${app}): ${version}"`)
-// await $`git commit -m "release(${app}): ${version}"`
+await $`git commit -m "release(${app}): ${version}"`
 console.log(`git push origin HEAD`)
-// await $`git push origin HEAD`
+await $`git push origin HEAD`
 
 // await $`git tag ${app}-${version}`
 // await $`git push origin HEAD --tags`
