@@ -4,7 +4,7 @@ import fs from 'node:fs'
 import path from 'node:path'
 
 const app = 'vue-app'
-const version = process.env.VERSION ?? '4.0.0' // pass VERSION=1.0.0
+const version = process.env.VERSION ?? '0.0.1' // pass VERSION=1.0.0
 const repoRoot = process.cwd()
 const dist = path.join(repoRoot, 'apps', app, 'dist')
 const target = path.join(repoRoot, 'cdn', app, version)
@@ -16,8 +16,11 @@ fs.mkdirSync(target, { recursive: true })
 // // copy dist/* -> cdn/module-x/<version>/
 await $`cp -R ${dist}/. ${target}`
 
+console.log(`git add ${target}`)
 // await $`git add ${target}`
+console.log(`git commit -m "release(${app}): ${version}"`)
 // await $`git commit -m "release(${app}): ${version}"`
+console.log(`git push origin HEAD`)
 // await $`git push origin HEAD`
 
 // await $`git tag ${app}-${version}`
