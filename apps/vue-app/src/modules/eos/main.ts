@@ -10,4 +10,4 @@ app.use(PrimeVue, {
     preset: Aura
   }
 })
-app.mount('#app-eos')
+app.mount('#ems-client')
