@@ -1,0 +1,69 @@
+{
+  "../../node_modules/.pnpm/primeicons@7.0.0/node_modules/primeicons/fonts/primeicons.eot": {
+    "file": "assets/primeicons-DMOk5skT.eot",
+    "src": "../../node_modules/.pnpm/primeicons@7.0.0/node_modules/primeicons/fonts/primeicons.eot"
+  },
+  "../../node_modules/.pnpm/primeicons@7.0.0/node_modules/primeicons/fonts/primeicons.svg": {
+    "file": "assets/primeicons-Dr5RGzOO.svg",
+    "src": "../../node_modules/.pnpm/primeicons@7.0.0/node_modules/primeicons/fonts/primeicons.svg"
+  },
+  "../../node_modules/.pnpm/primeicons@7.0.0/node_modules/primeicons/fonts/primeicons.ttf": {
+    "file": "assets/primeicons-MpK4pl85.ttf",
+    "src": "../../node_modules/.pnpm/primeicons@7.0.0/node_modules/primeicons/fonts/primeicons.ttf"
+  },
+  "../../node_modules/.pnpm/primeicons@7.0.0/node_modules/primeicons/fonts/primeicons.woff": {
+    "file": "assets/primeicons-WjwUDZjB.woff",
+    "src": "../../node_modules/.pnpm/primeicons@7.0.0/node_modules/primeicons/fonts/primeicons.woff"
+  },
+  "../../node_modules/.pnpm/primeicons@7.0.0/node_modules/primeicons/fonts/primeicons.woff2": {
+    "file": "assets/primeicons-C6QP2o4f.woff2",
+    "src": "../../node_modules/.pnpm/primeicons@7.0.0/node_modules/primeicons/fonts/primeicons.woff2"
+  },
+  "_style-CVt65D3T.css": {
+    "file": "assets/style-CVt65D3T.css",
+    "src": "_style-CVt65D3T.css"
+  },
+  "_style-DWUxCpUn.js": {
+    "file": "assets/style-DWUxCpUn.js",
+    "name": "style",
+    "css": [
+      "assets/style-CVt65D3T.css"
+    ],
+    "assets": [
+      "assets/example-BIDsomIL.png",
+      "assets/primeicons-DMOk5skT.eot",
+      "assets/primeicons-C6QP2o4f.woff2",
+      "assets/primeicons-WjwUDZjB.woff",
+      "assets/primeicons-MpK4pl85.ttf",
+      "assets/primeicons-Dr5RGzOO.svg"
+    ]
+  },
+  "src/modules/eos/main.ts": {
+    "file": "assets/eos-B1DjRtv8.js",
+    "name": "eos",
+    "src": "src/modules/eos/main.ts",
+    "isEntry": true,
+    "imports": [
+      "_style-DWUxCpUn.js"
+    ],
+    "css": [
+      "assets/eos-DxGMuWhm.css"
+    ]
+  },
+  "src/modules/measurements/main.ts": {
+    "file": "assets/measurements-CWeyghuD.js",
+    "name": "measurements",
+    "src": "src/modules/measurements/main.ts",
+    "isEntry": true,
+    "imports": [
+      "_style-DWUxCpUn.js"
+    ],
+    "css": [
+      "assets/measurements-CTCcry4q.css"
+    ]
+  },
+  "src/shared/assets/example.png": {
+    "file": "assets/example-BIDsomIL.png",
+    "src": "src/shared/assets/example.png"
+  }
+}
