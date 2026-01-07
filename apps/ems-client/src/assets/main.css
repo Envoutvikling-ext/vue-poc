@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@theme {
+  /*--container-8xl: 90rem;*/
+  --container-8xl: 100%;
+}
+
+:root {
+  --ui-container: var(--container-8xl);
+  --ui-header-height: 34px;
+}
